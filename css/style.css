@@ -1,0 +1,152 @@
+body {
+    background-color: #4b367c !important;
+  color: #4b367c;
+}
+
+.text {
+    background-color: #17141f;
+    color: #d7cceb;
+}
+
+t{
+  font-size: 10px;
+  text-align: center;
+}
+
+.navbar-toggler:focus {
+    /* getting rid of the focus outline */
+    outline: none;
+}
+
+.navbar-toggler:hover {
+    background-color: #d7cceb;
+    transition: background-color .4s ease-in-out;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active:hover {
+    color: #4b367c;
+    background-color: #d7cceb;
+}
+
+.btn-outline-secondary {
+    color: #d7cceb !important;
+    border-color: #d7cceb !importantc;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #d7cceb !important;
+    color: #4b367c !important;
+    transition: background-color .4s ease-in-out;
+}
+
+ul {
+    /*keeps the offline button and the search bar from touching*/
+    margin-right: 7px;
+}
+
+.name {
+    /*to center within the row for offline names*/
+    padding-top: 15px;
+}
+
+.preview {
+    /*accounts for the preview image to center within the row for online names*/
+    padding-top: 10px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.title {
+    /*to center within the row*/
+    padding-top: 15px;
+}
+
+span.preview {
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    /*hidden when not hovered*/
+    width: 0;
+    /*making the icon center in the block */
+    display: inline-block;
+    /*transition speed for the hover*/
+    transition: 0.2s linear;
+    /*making the icon invisible*/
+    opacity: 0;
+}
+
+.online:hover span {
+    /*when an online div is hovered over, select the span and change*/
+    /*expanding when hovered*/
+    width: 40px;
+    /*making the icon visible when hovered*/
+    opacity: 1.0;
+}
+
+.player {
+/*   gets rid of extra space */
+ /* max-height: 350px; */
+}
+
+.embedVideo {
+/*   keeps the video player responsive */
+    position:relative;
+    padding-bottom:60.0%;
+    height:0;
+ }
+.embedVideo iframe{
+/*   keeps the video player responsive */
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    /* max-width: 900px;
+    max-height: 300px; */
+    border:0;
+ }
+
+.online .hidden {
+    display: none;
+    transition: 0.2s linear;
+}
+
+.banner {
+    width: 50px;
+    height: auto;
+}
+
+
+.title {
+    font-size: 15px;
+}
+
+.offline {
+    background-color: #6e6779;
+    border: 1px solid #343a40;
+}
+
+.online {
+    background-color: #d7cceb;
+    border: 1px solid #4b367c;
+}
+
+.live {
+    color: red;
+    font-size: 20px;
+}
+
+a:link {
+    color: #4b367c;
+}
+
+a:visited {
+    color: #4b367c;
+}
+
+footer{
+  text-align: center;
+  color: #d7cceb;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch viewer</title>
+  <meta charset="UTF-8">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html lang="en">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text" id="nav">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.twitch.tv" target="blank"><i class="fa fa-twitch" aria-hidden="true"></i> Twitch Viewer</a>
+          <t>Click an online channel to open a live stream player!</t>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-tabs ml-auto">
+                    <li class="nav-item">
+                        <a id="all" class="nav-link active">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="online" class="nav-link">Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="offline" class="nav-link">Offline</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" onSubmit="return false">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Add a channel" aria-label="Search">
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div id="streams">
+        </div>
+    </div>
+</body>
+  <footer>Made by Ivan Schurawel in 2017</footer>
+
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+<script src='https://use.fontawesome.com/156d66e7a0.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
